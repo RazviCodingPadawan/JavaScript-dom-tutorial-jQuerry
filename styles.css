@@ -95,6 +95,7 @@ h2 {
   box-sizing: border-box;
   width: 300px;
   float: left;
+  clear: both;
 }
 
 #add-book button {
@@ -119,24 +120,30 @@ h2 {
   clear: both;
 }
 
-/*
-#tabbed-content li{
-    display: inline-block;
-    padding: 10px 14px;
-    background: #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 10px;
+#add-book #hide {
+  width: 30px;
 }
 
-#tabbed-content .tab{
-    display: none;
-    border: 1px solid #ddd;
-    padding: 0 10px;
-    border-radius: 4px;
+#add-book label {
+  line-height: 52px;
 }
 
-#tabbed-content .tab.active{
-    display: block;
+#tabbed-content li {
+  display: inline-block;
+  padding: 10px 14px;
+  background: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
 }
-*/
+
+#tabbed-content .panel {
+  display: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+#tabbed-content .panel.active {
+  display: block;
+}
